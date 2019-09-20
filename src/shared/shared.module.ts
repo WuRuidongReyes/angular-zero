@@ -9,7 +9,7 @@ import { AppUrlService } from './nav/app-url.service';
 import { AppAuthService } from './auth/app-auth.service';
 import { AppRouteGuard } from './auth/auth-route-guard';
 import { AbpPaginationControlsComponent } from './pagination/abp-pagination-controls.component';
-import { LocalizePipe } from '@shared/pipes/localize.pipe';
+import { LocalizePipe } from './pipes/localize.pipe';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CdkTableModule } from '@angular/cdk/table';
