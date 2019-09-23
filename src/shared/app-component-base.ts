@@ -1,12 +1,12 @@
 import { Injector, ElementRef } from '@angular/core';
 import { AppConsts } from './AppConsts';
-import { LocalizationService } from '@abp/localization/localization.service';
-import { PermissionCheckerService } from '@abp/auth/permission-checker.service';
-import { FeatureCheckerService } from '@abp/features/feature-checker.service';
-import { NotifyService } from '@abp/notify/notify.service';
-import { SettingService } from '@abp/settings/setting.service';
-import { MessageService } from '@abp/message/message.service';
-import { AbpMultiTenancyService } from '@abp/multi-tenancy/abp-multi-tenancy.service';
+import { LocalizationService } from '../../node_modules/abp-ng2-module/dist/src/localization/localization.service';
+import { PermissionCheckerService } from '../../node_modules/abp-ng2-module/dist/src/auth/permission-checker.service';
+import { FeatureCheckerService } from '../../node_modules/abp-ng2-module/dist/src/features/feature-checker.service';
+import { NotifyService } from '../../node_modules/abp-ng2-module/dist/src/notify/notify.service';
+import { SettingService } from '../../node_modules/abp-ng2-module/dist/src/settings/setting.service';
+import { MessageService } from '../../node_modules/abp-ng2-module/dist/src/message/message.service';
+import { AbpMultiTenancyService } from '../../node_modules/abp-ng2-module/dist/src/multi-tenancy/abp-multi-tenancy.service';
 import { AppSessionService } from './session/app-session.service';
 
 export abstract class AppComponentBase {

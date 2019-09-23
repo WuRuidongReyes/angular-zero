@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AppConsts } from '@shared/AppConsts';
+import { AppConsts } from '../AppConsts';
 
 @Injectable()
 export class AppAuthService {

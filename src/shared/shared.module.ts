@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { AbpModule } from '@abp/abp.module';
+import { AbpModule } from '../../node_modules/abp-ng2-module/dist/src/abp.module';
 import { RouterModule } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 
@@ -51,9 +51,6 @@ import {
     MatTooltipModule,
     MatTreeModule,
 } from '@angular/material';
-import { BlockDirective } from './directives/block.directive';
-import { BusyDirective } from './directives/busy.directive';
-import { EqualValidator } from './directives/equal-validator.directive';
 @NgModule({
     imports: [
         CommonModule,
@@ -99,16 +96,10 @@ import { EqualValidator } from './directives/equal-validator.directive';
     declarations: [
         AbpPaginationControlsComponent,
         LocalizePipe,
-        BlockDirective,
-        BusyDirective,
-        EqualValidator
     ],
     exports: [
         AbpPaginationControlsComponent,
         LocalizePipe,
-        BlockDirective,
-        BusyDirective,
-        EqualValidator,
         CdkTableModule,
         CdkTreeModule,
         DragDropModule,

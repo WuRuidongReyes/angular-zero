@@ -1,4 +1,4 @@
-import { AbpMultiTenancyService } from '@abp/multi-tenancy/abp-multi-tenancy.service';
+import { AbpMultiTenancyService } from '../../../node_modules/abp-ng2-module/dist/src/multi-tenancy/abp-multi-tenancy.service';
 import { Injectable } from '@angular/core';
 import {
     ApplicationInfoDto,
@@ -6,7 +6,7 @@ import {
     SessionServiceProxy,
     TenantLoginInfoDto,
     UserLoginInfoDto
-} from '@shared/service-proxies/service-proxies';
+} from '../service-proxies/service-proxies';
 
 @Injectable()
 export class AppSessionService {

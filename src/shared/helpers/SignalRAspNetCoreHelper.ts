@@ -1,5 +1,5 @@
-import { AppConsts } from '@shared/AppConsts';
-import { UtilsService } from '@abp/utils/utils.service';
+import { AppConsts } from '../AppConsts';
+import { UtilsService } from '../../../node_modules/abp-ng2-module/dist/src/utils/utils.service';
 
 export class SignalRAspNetCoreHelper {
     static initSignalR(callback?: () => void): void {
