@@ -1,7 +1,7 @@
 import { Component, ViewContainerRef, Injector, OnInit, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 import { AppComponentBase } from '../shared/app-component-base';
 
-import { SignalRAspNetCoreHelper } from '../shared/helpers/SignalRAspNetCoreHelper';
+import { SignalRAspNetCoreHelper } from '@shared/helpers/SignalRAspNetCoreHelper';
 
 @Component({
   selector: 'app-root',
