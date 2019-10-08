@@ -30,7 +30,8 @@ export class AppComponent extends AppComponentBase implements OnInit, AfterViewI
               body: userNotification.notification.data.message,
               icon: abp.appPath + 'assets/app-logo-small.png',
               timeout: 6000,
-              onClick: function () {
+              // tslint:disable-next-line:object-literal-shorthand
+              onClick: function() {
                   window.focus();
                   this.close();
               }
