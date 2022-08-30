@@ -43,7 +43,7 @@
     "js-cookie": "^2.1.4",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "moment-timezone": "^0.5.13",
+    "moment-timezone": "^0.5.35",
     "ngx-bootstrap": "^3.0.0",
     "ngx-pagination": "^3.0.3",
     "push.js": "1.0.9",
